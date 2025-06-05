@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediwali Consultancy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+
+            <img src="logo.jpg" alt="Medwali Consultancy">
+        </div>
+        <button class="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#medical">Medical</a></li>
+                <li><a href="#study-abroad">Study Abroad</a></li>
+                <li><a href="#study-india">Study In India</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <a href="#admission" class="online-coaching-btn">Admission <i class="fas fa-arrow-right"></i></a>
+            </ul>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#medical">Medical</a></li>
+                <li><a href="#study-abroad">Study Abroad</a></li>
+                <li><a href="#study-india">Study In India</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <a href="#admission" class="online-coaching-btn">Admission <i class="fas fa-arrow-right"></i></a>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-carousel">
+        <div class="carousel-wrapper">
+            <div class="carousel-slide active">
+                <img src="images/hero1.png" alt="MBBS Abroad 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="images/hero2.jpg" alt="MBBS Abroad 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="images/hero3.jpg" alt="MBBS Abroad 3">
+            </div>
+            <div class="carousel-caption">
+                <h1>MBBS ABROAD</h1>
+                <p>Your Gateway to Quality Medical Education Worldwide</p>
+                <a href="#contact" class="cta-button">Get Free Counselling</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="medical" class="about-section">
+        <div class="container">
+            <h2>About</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <ul class="benefits-list">
+                        <li><i class="fas fa-check-circle"></i> Access to Top Medical Universities Worldwide</li>
+                        <li><i class="fas fa-check-circle"></i> Affordable Education with High-Quality Standards</li>
+                        <li><i class="fas fa-check-circle"></i> WHO & Medical Council Recognized Programs</li>
+                        <li><i class="fas fa-check-circle"></i> Comprehensive Support from Application to Graduation
+                        </li>
+                        <li><i class="fas fa-check-circle"></i> English Medium of Instruction Available</li>
+                        <li><i class="fas fa-check-circle"></i> Safe and Student-Friendly Environments</li>
+                        <li><i class="fas fa-check-circle"></i> Modern Infrastructure and Advanced Teaching Methods</li>
+                        <li><i class="fas fa-check-circle"></i> Cultural Exposure and Global Networking Opportunities
+                        </li>
+                        <li><i class="fas fa-check-circle"></i> Simplified Admission Process Without Donation Fees</li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <h3>BOOK FREE COUNSELLING</h3>
+                    <form id="counselling-form">
+                        <div class="form-group">
+                            <input type="text" id="fullName" placeholder="Full Name *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phoneNumber" placeholder="Phone Number *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email Id *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="city" placeholder="City Name *" required>
+                        </div>
+                        <button type="submit" class="apply-btn">
+                            <i class="fas fa-paper-plane"></i> Apply Now
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countries Section -->
+    <section id="study-abroad" class="countries-section">
+        <div class="container">
+            <h2>Popular Destinations for Medical Studies</h2>
+            <div class="countries-grid">
+                <div id="georgia" class="country-card">
+                    <img src="images/g.webp" alt="Georgia">
+                    <h3>Georgia</h3>
+                    <p>European education system with affordable fees and high-quality medical training.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div id="russia" class="country-card">
+                    <img src="images/r.webp" alt="Russia">
+                    <h3>Russia</h3>
+                    <p>World-renowned medical universities with advanced research facilities.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="study-india" class="why-choose-section">
+        <div class="container">
+            <h2>Why Choose Us</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-user-graduate"></i>
+                    <h3>Expert Guidance</h3>
+                    <p>Personalized counselling from experienced education consultants.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-globe-americas"></i>
+                    <h3>Global Network</h3>
+                    <p>Direct partnerships with top medical universities worldwide.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-file-signature"></i>
+                    <h3>Visa Assistance</h3>
+                    <p>Complete support for visa application and documentation.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-plane-departure"></i>
+                    <h3>Pre-Departure Support</h3>
+                    <p>Comprehensive orientation and travel arrangements.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>Post-Arrival Assistance</h3>
+                    <p>Continuous support for accommodation and local adjustment.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Career Counselling</h3>
+                    <p>Guidance for post-graduation opportunities and licensing exams.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2>What Our Students Say</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The guidance I received was exceptional. From university selection to visa processing,
+                            everything was handled professionally. Now I'm studying MBBS in Georgia and couldn't be
+                            happier with my decision."</p>
+                        <div class="student-info">
+                            <h4>Aditya phadtare</h4>
+                            <p>MBBS Student, Alte University</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"I was confused about studying abroad, but the consultants helped me understand all my
+                            options. Their step-by-step assistance made the entire process smooth and stress-free."</p>
+                        <div class="student-info">
+                            <h4>Priya Patel</h4>
+                            <p>MBBS Student, Alte University</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info-container">
+                    <div class="contact-info-card">
+                        <h3>Contact Information</h3>
+                        <div class="contact-details">
+                            <p><i class="fas fa-map-marker-alt"></i> Bengaluru/Belagavi</p>
+                            <p><i class="fas fa-phone"></i> +91 81973 06858</p>
+                            <p><i class="fas fa-envelope"></i> medwaliconsultancy@gmail.com</p>
+                            <p><i class="fas fa-clock"></i> Monday - Saturday: 9:00 AM - 6:00 PM</p>
+                        </div>
+                        <div class="contact-social">
+
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="contact-map">
+                        <!-- <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215266754809!2d-73.98784692404045!3d40.75798833440232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square"
+                            allowfullscreen="" loading="lazy"></iframe> -->
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <div class="contact-form-card">
+                        <h3>Send Us a Message</h3>
+                        <form id="contact-form">
+                            <div class="contact-form-group">
+                                <label for="contact-name">Full Name</label>
+                                <input type="text" id="contact-name" required>
+                            </div>
+                            <div class="contact-form-group">
+                                <label for="contact-email">Email Address</label>
+                                <input type="email" id="contact-email" required>
+                            </div>
+                            <div class="contact-form-group">
+                                <label for="contact-phone">Phone Number</label>
+                                <input type="tel" id="contact-phone" required>
+                            </div>
+                            <div class="contact-form-group">
+                                <label for="contact-subject">Subject</label>
+                                <select id="contact-subject" required>
+                                    <option value="" disabled selected>Select a subject</option>
+                                    <option value="admission">Admission Inquiry</option>
+                                    <option value="counselling">Counselling Session</option>
+                                    <option value="visa">Visa Assistance</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="contact-form-group">
+                                <label for="contact-message">Your Message</label>
+                                <textarea id="contact-message" required></textarea>
+                            </div>
+                            <button type="submit" class="contact-submit-btn">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photos Section -->
+    <section id="photos" class="photos-carousel">
+        <div class="container">
+            <h2>Our Photo Gallery</h2>
+            <div class="photo-slider">
+                <div class="photo-slide"><img src="images/p1.jpg" alt="Photo 1"></div>
+                <div class="photo-slide"><img src="images/p2.jpg" alt="Photo 2"></div>
+                <div class="photo-slide"><img src="images/p3.jpg" alt="Photo 3"></div>
+                <div class="photo-slide"><img src="images/p4.jpg" alt="Photo 4"></div>
+                <div class="photo-slide"><img src="images/p5.jpg" alt="Photo 5"></div>
+                <div class="photo-slide"><img src="images/p6.jpg" alt="Photo 6"></div>
+                <div class="photo-slide"><img src="images/p7.jpg" alt="Photo 7"></div>
+                <div class="photo-slide"><img src="images/p8.jpg" alt="Photo 8"></div>
+                <div class="photo-slide"><img src="images/p9.jpg" alt="Photo 9"></div>
+                <div class="photo-slide"><img src="images/p10.jpg" alt="Photo 10"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Study Destinations</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Popular Courses</h3>
+                <ul>
+                    <li><a href="#">MBBS Abroad</a></li>
+                    <li><a href="#">MD Programs</a></li>
+                    <li><a href="#">Dentistry</a></li>
+                    <li><a href="#">Pharmacy</a></li>
+                    <li><a href="#">Nursing</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Information</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Bengaluru/Belagavi</li>
+                    <li><i class="fas fa-phone"></i> +91 81973 06858</li>
+                    <li><i class="fas fa-envelope"></i> medwaliconsultancy@gmail.com</li>
+                </ul>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Medwali Medical Consultancy. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="#" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
